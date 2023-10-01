@@ -24,7 +24,7 @@
     display: none;
 }
 
-.lista__botao:checked~ .navegacao__lista {
+.lista_botao:checked~ .navegacao_lista {
     display: block;
 }
 
@@ -91,7 +91,7 @@ background-color: white;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 2.18em;
+    font-size: 2em;
 }
 
 .titulo__agricultura {
@@ -122,6 +122,12 @@ background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
 }
+
+
+.circle img:hover {
+    filter: grayscale(100%);
+  }
+  
 
 .botao__home {
     background-color: #089b28;
@@ -371,7 +377,7 @@ background-color: white;
 
     .titulo {
         padding-top: 4em;
-        font-size: 6em;
+        font-size: 4em;
     }
 
     .subtitulo {
