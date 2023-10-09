@@ -97,6 +97,33 @@ background-color: white;
     text-align: center;
 }
 
+/* Adiciona os circulos para os links dos labs */
+.link-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-container .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 217, 0);
+    margin-left: 10px;
+  }
+  
+ 
+  
+  .label {
+    margin-left: 10px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .label:hover {
+    color: #089b28;
+  }
+
 .banner__agricultura {
     background-image: url(../assets/plantacao.jpg);
 }
@@ -140,6 +167,9 @@ background-color: white;
     font-size: 1em;
 }
 
+.subtitulo__conteudo-principal {
+  font-size: 16px;
+}
 
 
     .circle img {
@@ -176,9 +206,9 @@ background-color: white;
     padding-top: 1 em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.87em;
-    width: 80%;
-    padding-left: 1.2em;
+    font-size: 1.6em;
+    width: 70%;
+    padding-left: 0em;
 
 }
 
@@ -426,28 +456,40 @@ background-color: white;
         padding: 2em 0 2em 55em;
     }
 
-    .subtitulo__contato {
-        padding: 2em 0 1em 21.9em;
-    }
+   
 
-    .formulario {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1em 1em;
-        font-size: 1.5em;
-        align-items: center;
-    }
+}
 
-    .botao__formulario {
-        padding: 1em;
-        width: 25%;
-        font-size: 1em;
-        
-    }
 
-    .campo__formulario {
-        height: 2em;
-    }
 
+
+
+/* CSS PAGINA PADRÃO PARA OS LABS */
+
+.lab {
+    text-align: center;
+  }
+  
+  .titulo_lab {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0 auto;
+  }
+  
+  .page-specific-audio {
+    position: fixed;
+    top: 5em;
+    right: 0;
+  }
+  
+  .audio-description {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  padding: 5px;
 }
