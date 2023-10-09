@@ -180,3 +180,14 @@ ul {
     
       }     
 
+      .home-button {
+        background-color: green;
+        font-family: Montserrat;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-top: 15px;
+        float: right;
+      }
+      
