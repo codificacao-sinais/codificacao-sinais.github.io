@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório 05 - Randre </title>
+    <link rel="stylesheet" href="estilos/LAB.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <ul>
+      <a href="projetos.html" class="home-button">Retornar à aba Projetos</a>
+
+        <img id="id__logo" class="logo" src="assets/ufabc.png" alt="Logo New Ways">
+        <audio controls class="page-specific-audio">
+          <source src="https://od.lk/s/M18yOTYzODA5Mzhf/lab04" type="audio/mpeg">
+        </audio>
+      </ul>
+
+        </div>
+</header>
+<body>
+    <section class="lab">
+        <h2 class="titulo_lab">Laboratório 05 - Codificação de Imagem com DWT  </h2>
+
+        <h3 class="intro"> Resultados integrante Randre </h3>
+
+     
+      <h4 class="subtitulo_lab2"> I. Resultados para o arquivo original</h4>
+
+      <h4 class="subtitulo_lab3"> a) Codificação de Luminância (P&B) com DWT </h4>
+      <img src="lab05/Randre_orig_V2.png" alt="Randre">
+
+
+      <h4 class="subtitulo_lab3"> b) Cálculo do Erro Quadrático Médio (MSE) e da Relação Sinal Ruído de Pico (PSNR) </h4>
+    
+      <img src="lab05/Randre_orig.png" alt="Randre">
+
+
+      <h4 class="subtitulo_lab3"> c) Teste das Funções de Multiresolução wavedec2() e waverec2() </h4>
+      <img src="lab05/Randre_orig_V3.png" alt="Randre">
+
+      <h4 class="subtitulo_lab3"> d) "Montagem" com wavedec2() e wavedecn() </h4>
+      <img src="lab05/Randre_orig_V4.png" alt="Randre">
+
+
+      <h4 class="subtitulo_lab3"> e) Reconstrução de Imagem Colorida </h4>
+
+      <h5 class="subtitulo_lab4"> I. Plano Vermelho </h5>
+      <img src="lab05/Randre_orig_R.png" alt="Randre">
+      <img src="lab05/Randre_orig_R_2.png" alt="Randre">
+      
+
+      <h5 class="subtitulo_lab4"> II. Plano Verde </h5>
+      <img src="lab05/Randre_orig_G.png" alt="Randre">
+      <img src="lab05/Randre_orig_G_2.png" alt="Randre">
+
+
+      <h5 class="subtitulo_lab4"> III. Plano Azul </h5>
+      <img src="lab05/Randre_orig_B.png" alt="Randre">
+      <img src="lab05/Randre_orig_B_2.png" alt="Randre">
+
+
+      <h4 class="subtitulo_lab3"> f) Reconstrução Nível 1 Colorida </h4>
+      <img src="lab05/Randre_orig_V5.png" alt="Randre">
+
+
+      <h4 class="subtitulo_lab3"> g) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho: 2,00 x 10^-24 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde: 1,41 x 10^-24 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul: 1,08 x 10^-24 </p>
+
+      <img src="lab05/Randre_reconstruida.png" alt="Randre">
+   
+
+   
+      <h4 class="subtitulo_lab"> Variando nível e os componentes da reconstrução DWT </h4>
+      <h4 class="subtitulo_lab2"> II. Resultados removendo o coeficiente CD </h4>
+
+
+      <h4 class="subtitulo_lab3"> a) Cálculo do Erro Quadrático Médio (MSE) e da Relação Sinal Ruído de Pico (PSNR) </h4>
+   
+
+      <h4 class="subtitulo_lab3"> b) Reconstrução de Imagem Colorida, sem o coeficiente CD.
+      <h5 class="subtitulo_lab4"> I. Plano Vermelho </h5>
+      <img src="lab05/Randre_sem_CD_R.png" alt="Randre">
+
+      
+      <h5 class="subtitulo_lab4"> II. Plano Verde </h5>
+      <img src="lab05/Randre_sem_CD_G.png" alt="Randre">
+
+      <h5 class="subtitulo_lab4"> III. Plano Azul </h5>
+      <img src="lab05/Randre_sem_CD_B.png" alt="Randre">
+
+      <h4 class="subtitulo_lab3"> c) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <img src="lab05/Randre_reconstruida_colorido_sem_cd.png" alt="Randre">
+
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho: 1,83 x 10^6 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde: 1,41 x 10^-24 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul: 1,83 x 10^6 </p>
+
+
+
+      <h4 class="subtitulo_lab2"> IIi. Resultados removendo os coeficientes CD e CV </h4>
+
+
+      <h4 class="subtitulo_lab3"> a) Cálculo do Erro Quadrático Médio (MSE) e da Relação Sinal Ruído de Pico (PSNR) </h4>
+      <img src="lab05/Randre_sem_CD_CV_1.png" alt="Randre">
+      <img src="lab05/Randre_sem_CD_CV_2.png" alt="Randre">
+
+      <h4 class="subtitulo_lab3"> b) Reconstrução de Imagem Colorida, sem o coeficiente CD.
+      <h5 class="subtitulo_lab4"> I. Plano Vermelho </h5>
+      <img src="lab05/Randre_sem_CD_CV_R.png" alt="Randre">
+
+      
+      <h5 class="subtitulo_lab4"> II. Plano Verde </h5>
+      <img src="lab05/Randre_sem_CD_CV_G.png" alt="Randre">
+
+      <h5 class="subtitulo_lab4"> III. Plano Azul </h5>
+      <img src="lab05/Randre_sem_CD_CV_B.png" alt="Randre">
+
+      <h4 class="subtitulo_lab3"> c) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <img src="lab05/Randre_reconstruida_colorido_sem_cd.png" alt="Randre">
+
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho: 1,83 x 10^6 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde: 1,41 x 10^-24 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul: 1,83 x 10^6 </p>
+
+
+
+        <h3 class="intro"> Notebook Python </h3>
+        <p class="texto_padrao" style="margin-bottom: 10px;"> Link para o notebook google collab - Sem CD: <a
+          href="https://colab.research.google.com/drive/1OJG1bCM2WGO1qei3sWCCexUDUmKTmWIN?authuser=2#scrollTo=iLpOcm6kHa5O"
+          target="_blank"><i class="texto_padrao">Notebook Ana</i></a></p>
+
+    
+        <p class="texto_padrao" style="margin-bottom: 10px;"> Link para o notebook google collab - Sem CD, CV: <a
+            href="https://colab.research.google.com/drive/1ykBzmlqlO5btiMZzUJlz5G2zWrKVYa-O?authuser=2#scrollTo=jo2WmtGgyCuV&uniqifier=1"
+            target="_blank"><i class="texto_padrao">Notebook Luisa</i></a></p>
+
+          <p class="texto_padrao" style="margin-bottom: 10px;"> Link para o notebook google collab - LAB 05: <a
+              href="https://drive.google.com/file/d/1Fwidc_bVx92JrJarTACGr0dUD-Nb2bss/view?usp=sharing"
+              target="_blank"><i class="texto_padrao">Notebook Randre</i></a></p>
+    
+  
+    
+      </div>
+    </footer>
+</body>
+</html>
