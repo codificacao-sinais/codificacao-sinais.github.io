@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório 05 - Peppers </title>
+    <link rel="stylesheet" href="estilos/LAB.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <ul>
+      <a href="projetos.html" class="home-button">Retornar à aba Projetos</a>
+
+        <img id="id__logo" class="logo" src="assets/ufabc.png" alt="Logo New Ways">
+        <audio controls class="page-specific-audio">
+          <source src="https://od.lk/s/M18yOTYzODA5Mzhf/lab04" type="audio/mpeg">
+        </audio>
+      </ul>
+
+        </div>
+</header>
+<body>
+    <section class="lab">
+        <h2 class="titulo_lab">Laboratório 05 - Codificação de Imagem com DWT  </h2>
+
+        <h3 class="intro"> Resultados arquivo Peppers </h3>
+
+     
+      <h4 class="subtitulo_lab2"> I. Resultados para o arquivo "Peppers", nível 1</h4>
+
+      <h4 class="subtitulo_lab3"> a) Codificação de Luminância (P&B) com DWT para a Pimentas </h4>
+      <img src="lab05/Peppers_DWT_PB.png" alt="Peppers">
+
+
+      <h4 class="subtitulo_lab3"> b) Cálculo do Erro Quadrático Médio (MSE) e da Relação Sinal Ruído de Pico (PSNR) </h4>
+      <img src="lab05/Calculo_PSNR_MSE_Peppers_PB.png" alt="Peppers">
+
+
+      <h4 class="subtitulo_lab3"> c) Teste das Funções de Multiresolução wavedec2() e waverec2() </h4>
+      <img src="lab05/Teste_funcoes_PEPPERS.png" alt="Peppers">
+      <img src="lab05/Teste_funcoes_PEPPERS_v2.png" alt="Peppers">
+
+      <h4 class="subtitulo_lab3"> d) "Montagem" com wavedec2() e wavedecn() </h4>
+      <img src="lab05/Montagem_peppers.png" alt="Peppers">
+
+      <h4 class="subtitulo_lab3"> e) Reconstrução de Imagem Colorida </h4>
+
+      <h5 class="subtitulo_lab4"> I. Plano Vermelho </h5>
+      <img src="lab05/Peppers_R.png" alt="Peppers">
+      <img src="lab05/Peppers_R_2.png" alt="Peppers">
+
+      <h5 class="subtitulo_lab4"> II. Plano Verde </h5>
+      <img src="lab05/Peppers_G.png" alt="Peppers">
+      <img src="lab05/Peppers_G_2.png" alt="Peppers">
+
+
+      <h5 class="subtitulo_lab4"> III. Plano Azul </h5>
+      <img src="lab05/Peppers_B.png" alt="Peppers">
+      <img src="lab05/Peppers_B_2.png" alt="Peppers">
+
+
+      <h4 class="subtitulo_lab3"> f) Reconstrução Nível 1 Colorida </h4>
+      <img src="lab05/Peppers_REC_N1.png" alt="Peppers">
+
+
+      <h4 class="subtitulo_lab3"> g) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho: 4,28 x 10^-13 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde: 1,12 x 10^-13 </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul: 8,70 x 10^-14 </p>
+
+      <img src="lab05/Peppers_PSNR_.png" alt="Peppers">
+   
+
+   
+      <h4 class="subtitulo_lab"> Variando nível e os componentes da reconstrução DWT </h4>
+      <h4 class="subtitulo_lab2"> II. Resultados para o arquivo "Peppers", com um nível a mais de codificação e removendo os coeficientes CH, CV e CD </h4>
+
+      <h4 class="subtitulo_lab3"> a) Codificação de Luminância (P&B) com DWT para a Pimentas, sem os coeficientes CH, CV e CD </h4>
+      <img src="lab05/Peppers_CA_N2.png" alt="Peppers">
+
+
+      <h4 class="subtitulo_lab3"> b) Cálculo do Erro Quadrático Médio (MSE) e da Relação Sinal Ruído de Pico (PSNR) </h4>
+      <img src="lab05/Calculo_PSNR_MSE_Peppers_PB_N2.png" alt="Peppers">
+
+
+      <h4 class="subtitulo_lab3"> c) Teste das Funções de Multiresolução wavedec2() e waverec2() </h4>
+      <img src="lab05/N2_CA2.png" alt="Peppers">
+      <img src="lab05/N3_CA3.png" alt="Peppers">
+
+      <h4 class="subtitulo_lab3"> d) Reconstrução de Imagem Colorida, sem os coeficientes CH, CV e CD. </h4>
+
+      <h5 class="subtitulo_lab4"> I. Plano Vermelho </h5>
+      <img src="lab05/Peppers_N2_R_CA.png" alt="Peppers">
+      <img src="lab05/Peppers_N2_R_CA_2.png" alt="Peppers">
+
+      
+      <h5 class="subtitulo_lab4"> II. Plano Verde </h5>
+      <img src="lab05/Peppers_N2_G_CA.png" alt="Peppers">
+      <img src="lab05/Peppers_N2_G_CA_2.png" alt="Peppers">
+
+      <h5 class="subtitulo_lab4"> III. Plano Azul </h5>
+      <img src="lab05/Peppers_N2_B_CA.png" alt="Peppers">
+      <img src="lab05/Peppers_N2_B_CA_2.png" alt="Peppers">
+     
+
+      <h4 class="subtitulo_lab3"> e) Reconstrução Nível 2 Colorida, sem os coeficientes CH, CV e CD. </h4>
+      <img src="lab05/Peppers_REC_N2_CA.png" alt="Peppers">
+
+
+
+
+      <h4 class="subtitulo_lab3"> III. Removendo os coeficientes progressivamente </h4>
+
+      <h4 class="subtitulo_lab3"> a) Resultados para o arquivo "Peppers", removendo CD. </h4>
+      <h4 class="subtitulo_lab4"> PSNR e a taxa de compressão do arquivo final reconstruído: </h4>
+      
+
+      <h4 class="subtitulo_lab4"> f) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho:  </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde:  </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul:  </p>
+
+      <h4 class="subtitulo_lab3"> b) Resultados para o arquivo "Peppers", removendo CD e CV. </h4>
+      <h4 class="subtitulo_lab4"> PSNR e a taxa de compressão do arquivo final reconstruído: </h4>
+      <h4 class="subtitulo_lab4"> f) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho:  </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde:  </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul:  </p>
+
+
+
+      <h4 class="subtitulo_lab3"> c) Resultados para o arquivo "Peppers", removendo CD, CV e CH. </h4>
+      <h4 class="subtitulo_lab4"> PSNR e a taxa de compressão do arquivo final reconstruído: </h4>      
+      <h4 class="subtitulo_lab4"> f) Reconstrução da Imagem colorida e Cálculo da MSE de cada plano de cor e da PSNR total </h4>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Vermelho:  </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Verde:  </p>
+      <p class="texto_padrao" style="margin-bottom: 10px;"> - MSE Plano Azul:  </p>
+
+
+
+        <h3 class="intro"> Notebook Python </h3>
+        <p class="texto_padrao" style="margin-bottom: 10px;"> Link para o notebook google collab - LAB 05: <a
+          href="https://drive.google.com/file/d/1Fwidc_bVx92JrJarTACGr0dUD-Nb2bss/view?usp=sharing"
+          target="_blank"><i class="texto_padrao">Notebook Ana</i></a></p>
+
+    
+        <p class="texto_padrao" style="margin-bottom: 10px;"> Link para o notebook google collab - LAB 05: <a
+            href="https://drive.google.com/file/d/1Fwidc_bVx92JrJarTACGr0dUD-Nb2bss/view?usp=sharing"
+            target="_blank"><i class="texto_padrao">Notebook Luisa</i></a></p>
+
+          <p class="texto_padrao" style="margin-bottom: 10px;"> Link para o notebook google collab - LAB 05: <a
+              href="https://drive.google.com/file/d/1Fwidc_bVx92JrJarTACGr0dUD-Nb2bss/view?usp=sharing"
+              target="_blank"><i class="texto_padrao">Notebook Randre</i></a></p>
+    
+  
+    
+      </div>
+    </footer>
+</body>
+</html>
