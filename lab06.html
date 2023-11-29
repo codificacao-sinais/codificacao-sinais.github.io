@@ -33,9 +33,7 @@
           <p class="texto_padrao"> Novamente, utilizando os fones envolventes, cada integrante do grupo revezou-se para
           realizar suas audições. </p>  
           <p class="texto_padrao"> Assim como temos variabilidade na sensibilidade de intensidade sonora audível, também temos variabilidade na faixa de frequência à qual nosso sistema auditivo é perceptivo. </p>
-   <h3 class="intro"> 2. Teste de Faixa Audível </h3>  
-        
-
+  
    <h2 class="subtitulo_lab">2.1) Teste de Faixa Audível, integrante Ana </h2>
 
    <style>
@@ -186,9 +184,95 @@
     
 <h2 class="subtitulo_lab">3) Teste de Mascaramento de Tons Harmônicos (Stanford University, 2016)  </h2>
 
+<h2 class="subtitulo_lab2"> Resultados Integrantes  </h2>
+
+
+</head>
+<body>
+
+<table>
+<thead>
+    <tr>
+      <th>Integrante</th>
+        <th>Tom Encobridor</th>
+        <th>Tom Mascarado </th>
+        <th>Fator de Atenuação (db)</th>
+ 
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Ana </td>
+        <td>2kHz</td>
+        <td>1.2Khz</td>
+        <td>-15.0 </td>
+
+    </tr>
+    <tr>
+      <td>Ana </td>
+      <td>1.2kHz</td>
+      <td>2Khz</td>
+        <td>-15.0</td>
+
+    </tr>
+
+    <tr>
+      <td>Luisa </td>
+      <td>2kHz</td>
+      <td>1.2Khz</td>
+      <td>75</td>
+  </tr>
+
+  
+  <tr>
+    <td>Luisa </td>
+    <td>1.2kHz</td>
+    <td>2Khz</td>
+    <td>75</td>
+</tr>
+
+
+
+<tr>
+  <td>Randre </td>
+  <td>2kHz</td>
+  <td>1.2Khz</td>
+  <td>75</td>
+</tr>
+
+
+<tr>
+  <td>Randre </td>
+  <td>1.2kHz</td>
+  <td>2Khz</td>
+  <td>75</td>
+</tr>
+
+
+
+   
+
+</tbody>
+</table>
+
+
+
 
 <h2 class="subtitulo_lab">4) Teste de Localização de Fonte Sonora (MOCK, 2001)   </h2>
-<h2 class="subtitulo_lab2"> Sons utilizados: Sino, chaves e palmas. </h2>
+<h2 class="subtitulo_lab2" style="margin-bottom: 10px;"> Sons utilizados: Sino, chaves e palmas. </h2>
+
+<audio controls>
+  <source src="lab06/sino.wav" type="audio/mpeg">
+</audio>
+
+<audio controls>
+  <source src="lab06/chave.m4a" type="audio/mpeg">
+</audio>
+
+
+<audio controls>
+  <source src="lab06/palma.m4a" type="audio/mpeg">
+</audio>
 
 
 
@@ -232,11 +316,99 @@
   </tr>
 
 
+  <tr>
+    <td>Luisa </td>
+    <td>Chave</td>
+    <td>50</td>
+    <td>90</td>
+    <td>±10</td>
+</tr>
+<tr>
+  <td>Luisa </td>
+    <td>Sino</td>
+    <td>80</td>
+    <td>70</td>
+    <td>±10</td>
+</tr>
+
+<tr>
+  <td>Luisa </td>
+  <td>Palmas</td>
+  <td>65</td>
+  <td>75</td>
+  <td>±10</td>
+</tr>
+
+
+<tr>
+  <td> Randre </td>
+  <td>Chave</td>
+  <td>50</td>
+  <td>90</td>
+  <td>±10</td>
+</tr>
+<tr>
+<td> Randre </td>
+  <td>Sino</td>
+  <td>80</td>
+  <td>70</td>
+  <td>±10</td>
+</tr>
+
+<tr>
+<td>Randre </td>
+<td>Palmas</td>
+<td>65</td>
+<td>75</td>
+<td>±10</td>
+</tr>
 
    
 
 </tbody>
 </table>
+
+
+
+<h2 class="subtitulo_lab">5) Resultados Collab  </h2>
+<h2 class="texto_padrao"> Disclaimer: Não foi possível realizar o cálculo dos Parâmetros LPC, separação U/UV e Espectro + Envoltória LPC, devido à biblioteca "audiolazy" utilizada não estar disponível para python no momento. </h2>
+
+
+<h2 class="subtitulo_lab2">5) Resultados Ana </h2>
+<h2 class="texto_padrao"> Audio Ana - Pré-Processamento   </h2>
+
+<audio controls>
+  <source src="lab06/ana_audio.wav" type="audio/mpeg">
+</audio>
+
+
+
+
+<h3 class="subtitulo_lab3"> Áudio Completo </h3> 
+
+<img src="lab06/ana_ondas.png" alt="Gráfico Ana">
+
+<img src="lab06/ana_graf.png" alt="Ana">
+
+
+<h3 class="subtitulo_lab3"> Apenas primeira estrofe </h3> 
+<audio controls>
+  <source src="lab06/ana_primeira_estrofe.wav" type="audio/mpeg">
+</audio>
+
+<img src="lab06/ana_primeira_Estrofe.png" alt="Ana">
+
+
+
+<h3 class="subtitulo_lab3"> Estimação da  f0  e do Pitch </h3> 
+
+<img src="lab06/f0_ana.png" alt="Ana">
+<img src="lab06/pitch_ana.png" alt="Ana">
+
+
+<h3 class="subtitulo_lab3"> Espectrograma enfatizando a f0 </h3> 
+<img src="lab06/f0.png" alt="Ana">
+
 </div>
     </footer>
 </body>
