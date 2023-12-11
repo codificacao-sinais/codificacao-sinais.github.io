@@ -18,7 +18,354 @@
         </div>
 </header>
 
+<body>
+  <section class="lab">
+      <h2 class="titulo_lab">Laboratório 07 - Codificação de Áudio MPEG </h2>
 
+           
+      <h3 class="intro"> 1. Objetivos </h3> 
+      <p class="texto_padrao"> - Conhecer as opções de codificação do ffmpeg</p>
+      <p class="texto_padrao">  - Verificar várias taxas mpeg 1, camada 3 e conversão entre codecs. </p>
+        <p class="texto_padrao"> - Variação de tempo. </p>
+      
+
+        <h3 class="intro"> 2. Resultados Gerais </h3> 
+        <h2 class="subtitulo_lab"> 2.1 - Arquivo ABBA - Fernando  </h2>
+
+
+        <h2 class="subtitulo_lab2"> 2.1.1 - Arquivo Original  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/abba_ori.png" alt="Abba">
+        
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - Arquivo Original  </h2>
+
+        
+        <p class="texto_padrao2"> Velocidade Original: </p>
+          <audio controls>
+            <source src="lab07/abba_ori.wav" type="audio/mpeg">
+          </audio>
+  
+          <p class="texto_padrao2"> Velocidade 2.0x: </p>
+          <audio controls>
+            <source src="lab07/abba_2x.wav" type="audio/mpeg">
+          </audio>
+     
+
+
+          
+        <h2 class="subtitulo_lab2"> 2.1.2 - Arquivo codificado a 128kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/abba_ori.png" alt="Abba">
+        
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - Arquivo codificado a 128kbps </h2>
+                
+       
+  
+          <p class="texto_padrao2"> Velocidade 2.0x: </p>
+          <audio controls>
+            <source src="lab07/abba_2x.wav" type="audio/mpeg">
+          </audio>
+     
+
+
+        <h2 class="subtitulo_lab2"> 2.1.3 - Arquivo codificado a 64kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/abba_64.png" alt="Abba">
+
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 64kbps </h2>
+
+       
+          <p class="texto_padrao2"> Velocidade 2.0x: </p>
+          <audio controls>
+            <source src="lab07/abba_64_2x.wav" type="audio/mpeg">
+          </audio>
+     
+
+        <h2 class="subtitulo_lab2"> 2.1.4 - Arquivo codificado a 32kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/abba_32.png" alt="Abba">
+
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 32kbps </h2>
+                  
+            <p class="texto_padrao2"> Velocidade 2.0x: </p>
+            <audio controls>
+              <source src="lab07/abba_32_2x.wav" type="audio/mpeg">
+            </audio>
+      
+
+
+        <h2 class="subtitulo_lab2"> 2.1.5 - Arquivo codificado a 16kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/abba_16.png" alt="Abba">
+
+            <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado a 16kbps </h2>
+
+        
+              <p class="texto_padrao2"> Velocidade 2.0x: </p>
+              <audio controls>
+                <source src="lab07/abba_16_2x.wav" type="audio/mpeg">
+              </audio>
+        
+
+        <h2 class="subtitulo_lab2"> 2.1.6 - Arquivo codificado a 8kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/abba_8.png" alt="Abba">
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 8kbps </h2>
+ 
+  
+          <p class="texto_padrao2"> Velocidade 2.0x: </p>
+          <audio controls>
+            <source src="lab07/abba_8_2x.wav" type="audio/mpeg">
+          </audio>
+     
+        
+
+
+
+        <h3 class="intro"> 3. Resultados Arquivos Adicionais </h3> 
+
+        <h2 class="subtitulo_lab"> 3.1 Arquivo R.E.M - Losing My religion (Integrante Ana)  </h2>
+        <h2 class="subtitulo_lab2"> 3.1.1 - Arquivo original  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/REM_espec_ori.png" alt="REM">
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo original </h2>
+        
+        <p class="texto_padrao2"> Velocidade original: </p>
+        <audio controls>
+          <source src="lab07/REM_LMR.wav" type="audio/mpeg">
+        </audio>
+   
+
+
+        <h2 class="subtitulo_lab2"> 3.1.2 - Arquivo codificado a 128kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/REM_espec_128.png" alt="REM">
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 128kbps </h2>
+      
+  
+
+
+        <p class="texto_padrao2"> Velocidade 2.0x: </p>
+        <audio controls>
+          <source src="lab07/rem_128_2x.wav" type="audio/mpeg">
+        </audio>
+   
+        
+        <h2 class="subtitulo_lab2"> 3.1.3 - Arquivo codificado a 64kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma 
+          <img src="lab07/REM_espec_64.png" alt="REM"> </h2>
+
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 64kbps </h2>
+       
+        <p class="texto_padrao2"> Velocidade 2.0x: </p>
+        <audio controls>
+          <source src="lab07/rem_64_2x.wav" type="audio/mpeg">
+        </audio>
+
+        <h2 class="subtitulo_lab2"> 3.1.4 - Arquivo codificado a 32kbps  </h2>
+        
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/REM_espec_32.png" alt="REM"> </h2>
+
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 32kbps </h2>
+       
+        <p class="texto_padrao2"> Velocidade 2.0x: </p>
+        <audio controls>
+          <source src="lab07/rem_32_2x.wav" type="audio/mpeg">
+        </audio>
+
+        <h2 class="subtitulo_lab2"> 3.1.5 - Arquivo codificado a 16kbps </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/REM_espec_16.png" alt="REM"> </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 16kbps </h2>
+        <p class="texto_padrao2"> Velocidade 2.0x: </p>
+        <audio controls>
+          <source src="lab07/rem_16_2x.wav" type="audio/mpeg">
+        </audio>
+
+        <h2 class="subtitulo_lab2"> 3.1.6 - Arquivo codificado a 8kpbs </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <img src="lab07/REM_espec_8.png" alt="REM"> </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 8kbps </h2>
+        <p class="texto_padrao2"> Velocidade 2.0x: </p>
+        <audio controls>
+          <source src="lab07/rem_8_2x.wav" type="audio/mpeg">
+        </audio>
+
+
+
+        <h2 class="subtitulo_lab"> 3.2. Arquivo XX - (Integrante Luisa)  </h2>
+        <h2 class="subtitulo_lab2"> 3.2.1 - Arquivo original  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+     
+
+        <h2 class="subtitulo_lab2"> 3.2.2 - Arquivo codificado a 128kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 128kbps </h2>
+        
+        <h2 class="subtitulo_lab2"> 3.2.3 - Arquivo codificado a 64kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 64kbps </h2>
+
+        <h2 class="subtitulo_lab2"> 3.2.4 - Arquivo codificado a 32kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 64kbps </h2>
+
+        <h2 class="subtitulo_lab2"> 3.2.5 - Arquivo codificado a 16kbps </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 16kbps </h2>
+
+        <h2 class="subtitulo_lab2"> 3.2.6 - Arquivo codificado a 8kpbs </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 8kbps </h2>
+
+
+
+        <h2 class="subtitulo_lab"> 3.3 Arquivo XX - (Integrante Randre)  </h2>
+        <h2 class="subtitulo_lab2"> 3.3.1 - Arquivo original  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado original </h2>
+
+        <h2 class="subtitulo_lab2"> 3.3.2 - Arquivo codificado a 128kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 128kbps </h2>
+        
+        <h2 class="subtitulo_lab2"> 3.3.3 - Arquivo codificado a 64kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 64kbps </h2>
+
+        <h2 class="subtitulo_lab2"> 3.3.4 - Arquivo codificado a 32kbps  </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 64kbps </h2>
+
+        <h2 class="subtitulo_lab2"> 3.3.5 - Arquivo codificado a 16kbps </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 16kbps </h2>
+
+        <h2 class="subtitulo_lab2"> 3.3.6 - Arquivo codificado a 8kpbs </h2>
+        <h2 class="subtitulo_lab2"> a) Espectrograma  </h2>
+        <h2 class="subtitulo_lab2"> b) Codificação áudio - velocidade arquivo codificado 8kbps </h2>
+
+
+
+        <h2 class="intro"> 4. Tabela com as taxas de Compressão </h2>
+
+              <style>
+                body {
+                    font-family: 'Montserrat', sans-serif;
+                }
+            
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 20px;
+                    border: 1px solid black; /* Add a black border around the table */
+                }
+            
+                th, td {
+                    border: 1px solid black; /* Add a black border around cells */
+                    padding: 8px;
+                    text-align: left;
+                }
+            
+                th {
+                    background-color: #f2f2f2;
+                }
+            
+                /* Apply background color to the "Frequência Mínima" and "Frequência Máxima" columns */
+                td:nth-child(1)
+              {
+                    background-color: #f2f2f2;
+                }
+            
+            
+                
+            </style>
+            
+            
+            </head>
+            <body>
+            
+            <table>
+            <thead>
+                <tr>
+                  <th> Integrante </th>
+                    <th> Original 320KBPS (kB) </th>
+                    <th> 128kbps (%) </th>
+                    <th> 64kbps (%)</th>
+                    <th> 32kbps (%)</th>
+                    <th> 16kbps (%)</th>
+                    <th> 8bps (%)</th>
+            
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana </td>
+                    <td>13,946</td>
+                    <td>32,9500%</td>
+                    <td>16,4752%</td>
+                    <td>8,2384%</td>
+                    <td>8,2384%</td>
+                    <td>8,2384%</td>
+                </tr>
+                <tr>
+                    <td> Luisa </td>
+                    <td>15719</td>
+                    <td>16700</td>
+                    <td>15000</td>
+                </tr>
+            
+                <tr>
+                  <td> Randre </td>
+                  <td>15719</td>
+                  <td>16700</td>
+                  <td>15000</td>
+              </tr>
+            
+              
+            
+            </tbody>
+            </table>
+            
+      
+      
+      
+     
+        
+        <h2 class="intro"> 5. Detalhes sobre a biblioteca libvorbis</h2>
+        <h2 class="intro"> 1. Tecnologia </h2>
+           <h2 class="texto_padrao">- A tecnologia subjacente à libvorbis é baseada no codec de áudio Vorbis, que utiliza a transformada discreta de cosseno (DCT) e técnicas de quantização para comprimir dados de áudio com perda.
+          </h2>
+           <h2 class="intro"> 2. Diagrama de blocos funcional </h2>
+           <h2 class="texto_padrao">- O processo de codificação de áudio usando a biblioteca libvorbis envolve vários estágios, incluindo:
+          </h2>
+          <h2 class="texto_padrao"> - O sinal de áudio é transformado em seu espectro de frequência. </h2>
+          <h2 class="texto_padrao">   - Quantização: A informação espectral é representada de forma mais eficiente. </h2>
+          <h2 class="texto_padrao">   - Codificação de Entropia: Os dados são comprimidos usando códigos de entropia para reduzir ainda mais o tamanho do arquivo. </h2>
+        
+          <h2 class="intro"> 3. Licenciamento: </h2>
+          <h2 class="texto_padrao">  - Libvorbis é licenciada sob a GPL, que é uma licença de código aberto. Isso significa que você pode usar, modificar e distribuir a biblioteca de acordo com os termos da GPL. Qualquer software que utilize libvorbis também deve ser distribuído sob os termos da GPL.
+        </h2>
+
+        <h2 class="intro"> 4. Taxa de Operação: </h2>
+        <h2 class="texto_padrao">  - A taxa de operação, ou seja, a taxa de bits resultante do processo de codificação, pode ser ajustada pelos usuários. Isso permite que você equilibre a qualidade do áudio desejada com o tamanho do arquivo resultante.
+        </h2>
+
+           <h2 class="intro"> 5. Qualidade Esperada: </h2>
+           <h2 class="texto_padrao"> - O Vorbis é projetado para proporcionar uma qualidade de áudio comparável ou superior ao MP3 em taxas de bits equivalentes. A qualidade final dependerá das configurações escolhidas durante o processo de codificação.
+           </h2>
+           <h2 class="intro"> 6. Ferramentas e Utilização: </h2>
+           <h2 class="texto_padrao">  - A libvorbis é frequentemente utilizada em projetos que necessitam de uma solução de áudio de alta qualidade e código aberto. Muitos players de áudio e softwares de transmissão de áudio na internet usam Vorbis para reprodução e transmissão de conteúdo.
+        </h2>
+       
+
+        <h4 class="subtitulo_lab2"> Links notebooks </h4>
+        <p class="texto_padrao" style="margin-bottom: 10px;"> Link para os resultados, integrante Ana: <a
+          href="https://colab.research.google.com/drive/1HMCF5YnjxYseQJsYd-9mSoB-VXcdWhVT?usp=sharing"
+          target="_blank"><i class="texto_padrao">R.E.M - Losing my religion  </i></a></p>
+
+          
     </footer>
 </body>
 </html>
